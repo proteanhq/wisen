@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wisen"
+version = "0.1.0"
+description = "A Python library for schema versioning and compatibility checks."
+authors = ["Subhash Bhushan <subhash.bhushan@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
